@@ -71,10 +71,11 @@ footer div{
     height: 90%;
     display: inline-block;
     background-color:white;
+    padding: 5px;
 }
 
 footer div:first-of-type{
-    margin-left: 4.5%;
+    margin-left: 3%;
 }
 
 footer img{
@@ -90,4 +91,8 @@ footer button{
     border-radius: 30px;
     color: white;
     background-color: orangered;
+}
+
+footer button:hover{
+    background-color: orange;
 }
